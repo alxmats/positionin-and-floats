@@ -1,0 +1,164 @@
+@import url(./fonts.css);
+
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+}
+
+body {
+	height: 2000px;
+	font-family: MyriadProRegular;
+}
+
+.wrapper {
+		max-width: 1000px;
+		position: relative;
+		margin: 10px auto 0;
+}
+
+.page {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 20px 30px 30px 35px;
+	border: 2px solid #000;
+	width: 522px;
+	background-color: #ebebeb;
+
+}
+
+.main-section-header {
+	font-size: 1.48em;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+
+.bookmark {
+	visibility: hidden;
+	width: 111px;
+	height: 35px;
+	border: 2px solid #000;
+	display: inline-block;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.main-bookmark {
+	background-color: #f68e56;
+	position: relative;
+	right: -180px;
+	top: 18px;
+}
+
+.main-section {
+	clear: both;
+}
+
+.main-section p {
+	font-size: 0.74em;
+}
+
+.main-section-cup {
+	display: inline-block;
+	float: left;
+}
+
+.main-section-p1 {
+	display: inline-block;
+	width: 222px;
+	padding-left: 20px;
+}
+
+.main-section-p2 {
+	clear: both;
+	padding: 0 0 10px;
+}
+
+.main-section-p3 {
+	width: 307px;
+}
+
+.main-section-sheets {
+	float: right;
+}
+
+.sub-section-header {
+	clear: both;
+	padding: 10px 0;
+	font-size: 1.1em;
+}
+
+.jokes {
+	display: inline-block;
+	height: 95px;
+	overflow-y: hidden;
+	margin: 0 0 15px 0;
+}
+
+.jokes:nth-child(2n+1) {
+	float: right;
+}
+
+footer {
+	font-size: 0.55em;
+	text-align: center;
+}
+
+
+.layer-2 {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 2px solid #000;
+	width: 522px;
+	height: 726px;
+	background-color: #ccc;
+	z-index: -1;
+	position: absolute;
+	top: 20px;
+	left: 259px;
+}
+
+.layer-3 {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 2px solid #000;
+	width: 522px;
+	height: 726px;
+	background-color: #acacac;
+	z-index: -2;
+	position: absolute;
+	top: 40px;
+	left: 279px;
+
+}
+
+.layer-2-bookmark {
+	background-color: #39b54a;
+	position: absolute;
+	right: -52px;
+	top: 35px;
+}
+
+.layer-3-bookmark {
+	background-color: #00aeef;
+	position: absolute;
+	right: -22px;
+	top: 36px;
+}
+
+.sticker {
+	width: 90px;
+	height: 70px;
+	border: 1px solid #000;
+	text-align: center;
+	background-color: #fbaf5d;
+	position: fixed;
+	right: 0;
+	top: 350px;
+}
+
+.sticker span {
+	display: inline-block;
+	padding: 7px;
+}
