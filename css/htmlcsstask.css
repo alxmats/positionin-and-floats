@@ -1,3 +1,4 @@
+@import url(./reset.css);
 @import url(./fonts.css);
 
 * {
@@ -9,46 +10,44 @@
 body {
 	height: 2000px;
 	font-family: MyriadProRegular;
+	line-height: 1.2;
 }
 
 .wrapper {
-		max-width: 1000px;
-		position: relative;
-		margin: 10px auto 0;
+	min-width: 1000px;
+	min-height: 800px;
+//	position: relative;
+	margin: 10px auto 0;
 }
 
 .page {
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
 	margin: 0 auto;
-	padding: 20px 30px 30px 35px;
+	padding: 39px 33px 51px;
 	border: 2px solid #000;
-	width: 522px;
+	width: 452px;
 	background-color: #ebebeb;
-
 }
 
 .main-section-header {
 	font-size: 1.48em;
 	margin-bottom: 15px;
 	display: inline-block;
+	position: relative;
 }
 
 .bookmark {
-	visibility: hidden;
 	width: 111px;
 	height: 35px;
 	border: 2px solid #000;
-	display: inline-block;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
 
 .main-bookmark {
 	background-color: #f68e56;
-	position: relative;
-	right: -180px;
-	top: 18px;
+	position: absolute;
+	right: 160px;
+	top: 40px;
 }
 
 .main-section {
@@ -56,7 +55,7 @@ body {
 }
 
 .main-section p {
-	font-size: 0.74em;
+	font-size: 0.75em;
 }
 
 .main-section-cup {
@@ -66,7 +65,7 @@ body {
 
 .main-section-p1 {
 	display: inline-block;
-	width: 222px;
+	width: 223px;
 	padding-left: 20px;
 }
 
@@ -84,9 +83,14 @@ body {
 }
 
 .sub-section-header {
+	height: 21px;
 	clear: both;
 	padding: 10px 0;
 	font-size: 1.1em;
+}
+
+.section-jokes {
+	font-size: 0;
 }
 
 .jokes {
@@ -103,20 +107,28 @@ body {
 footer {
 	font-size: 0.55em;
 	text-align: center;
+	height: 20px;
 }
 
+.wrapper {
+	max-width: 1000px;
+	max-height: 800px;
+	position: relative;
+	margin: 10px auto 0;
+}
 
 .layer-2 {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	border: 2px solid #000;
 	width: 522px;
-	height: 726px;
+	height: 741px;
 	background-color: #ccc;
 	z-index: -1;
 	position: absolute;
 	top: 20px;
 	left: 259px;
+	margin: 0;
 }
 
 .layer-3 {
@@ -124,13 +136,13 @@ footer {
 	-moz-box-sizing: border-box;
 	border: 2px solid #000;
 	width: 522px;
-	height: 726px;
+	height: 741px;
 	background-color: #acacac;
 	z-index: -2;
 	position: absolute;
 	top: 40px;
 	left: 279px;
-
+	margin: 0;
 }
 
 .layer-2-bookmark {
@@ -155,7 +167,7 @@ footer {
 	background-color: #fbaf5d;
 	position: fixed;
 	right: 0;
-	top: 350px;
+	bottom: 50px;
 }
 
 .sticker span {
