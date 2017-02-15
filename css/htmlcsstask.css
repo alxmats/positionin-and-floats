@@ -10,13 +10,12 @@
 body {
 	height: 2000px;
 	font-family: MyriadProRegular;
-	line-height: 1.2;
+	line-height: 14px;
 }
 
 .wrapper {
 	min-width: 1000px;
 	min-height: 800px;
-//	position: relative;
 	margin: 10px auto 0;
 }
 
